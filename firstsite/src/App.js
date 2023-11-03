@@ -15,7 +15,6 @@ function App() {
       <Hero2 />
       <Obrozov />
       <Obr_tr />
-      <p>dsdfd</p>
     </div>
   );
 }

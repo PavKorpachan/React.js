@@ -212,21 +212,39 @@ h1 {
   width: 360px;
   object-fit: cover;
   position: absolute;
+  filter: brightness(50%);
 }
 #all_traek {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0px 30px;
+  margin-top: 70px;
+}
+#obr_tr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 505px;
+  margin-top: 150px;
 }
 #traek111, #traek222, #traek333 {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: absolute;
+  height: 300px;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+  
 }
 #traek_text1, #traek_text2, #traek_text3 {
-  color: rgb(245, 0, 0);
-  font-size: 20px;
+  color: white;
+  font-size: 25px;
+  width: 250px;
+  text-align: center;
 }
 #traek1, #traek2, #traek3 {
   height: 300px;
@@ -235,6 +253,20 @@ h1 {
   flex-direction: column;
   align-items: center;
 }
-
+.btn-outline-secondary {
+  border-radius: 45px;
+  height: 45px;
+  width: 145px;
+  color: white;
+  border: 1px solid white;
+}
+.btn-outline-secondary:hover {
+  color: rgb(90, 90, 90);
+  background-color: white; 
+}
+#name_obr_tr {
+  color: rgb(251, 185, 0);
+  font-size: 55px;
+}
 
 
