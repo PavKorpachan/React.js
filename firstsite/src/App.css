@@ -1,0 +1,240 @@
+#wrapper {
+  display: flex;
+  user-select:none;
+  margin: auto;
+  height: 80px;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+#photo {
+  display: flex;
+  margin-left: 40px;
+}
+#elem1, #elem2, #elem3 {
+  display: flex;
+  background-color: #fbb900;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#elem4 {
+  display: flex;
+  background-color: #fbb900;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+#but_elem4 {
+  display: inline-block;
+  background-color: #fbb900;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #fbb900;
+  text-align: center;
+  padding-right: 6px;
+  color: white;
+  font-weight:bold;
+  font-size: 15px;
+  border: 0px;
+}
+#but_elem4:hover {
+  animation-name: hover;
+  animation-duration: 0.3s;
+  cursor: pointer;
+  background-color:#a07602;
+}
+@keyframes hover {
+  from {
+    background-color:#fbb900;
+  }
+  to {
+    background-color:#a07602;
+  }
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#all_elems {
+  display: flex;
+  margin: auto 0px;
+  flex-direction: row;
+  margin-left: 80px;
+}
+.btn-primary {
+  background-color:#fbb900;
+  width: 240px;
+  border: 0px;
+  --bs-btn-active-bg: #a07602;
+  --bs-btn-hover-bg: #a07602;
+}
+.btn-primary:hover {
+  animation-name: hover;
+  animation-duration: 0.3s;
+  
+}
+#text {
+  width: 370px;
+  font-size: 30px;
+}
+#bg {
+  display: block;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+#glavbut {
+  height: 620px;
+  width: 100%;
+}
+#but {
+  position: absolute;
+
+  margin-top: 250px;
+  margin-left: 45%;
+}
+#but2 {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin-top: 550px;
+  justify-content: space-around;
+}
+.btn-secondary {
+  border-radius: 180px;
+  background-color:#fbb900;
+  width: 240px;
+  border: 0px;
+  --bs-btn-active-bg: #a07602;
+  --bs-btn-hover-bg: #a07602;
+}
+.btn-secondary:hover {
+  animation-name: hover;
+  animation-duration: 0.3s;
+}
+#info {
+  display: flex;
+  background-color: #fbb900;
+  width: 100%;
+  height: 525px;
+  align-items: center;
+  flex-direction: column;
+}
+#dio1 {
+  font-weight: bold;
+  color:white;
+  font-size: 60px;
+  margin: 0px;
+  line-height: 125%;
+  margin-top: 50px;
+}
+#dio2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+#glavdio{
+  text-align: center;
+}
+#arrow {
+  height:110px;
+  width:75px;
+  transform:scale(0.5) translateX(-150px) translateY(20px);
+  fill: white;
+  position: absolute;
+}
+.btn-success {
+  background-color: #65697c;
+  border-radius: 100px;
+  width: 350px;
+  height: 50px;
+  margin-top: 50px;
+  font-size: 20px;
+  border: 0px;
+}
+#obr {
+  display: flex;
+  width: 100%;
+  height: 525px;
+  flex-direction: column;
+  text-align:left ;
+  align-items: center;
+ 
+}
+#texts1 {
+  display: flex;
+  flex-direction: row;
+  width:95%;
+  height:fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+#bgtext1 {
+  width:95%;
+  margin-bottom: 30px;
+  height:fit-content;
+}
+#bgtext1, #bgtext2, #bgtext3 {
+  background-color:#F3F1EB;
+  padding: 30px 60px;
+  border-radius: 30px;
+}
+#text3, #text2, #text1 {
+  font-size: 25px;
+}
+#name {
+  font-size: 48px;
+  color:#FBB900;
+}
+#bgtext3, #bgtext2 {
+  width: 48.7%;
+}
+#traek11, #traek22, #traek33 {
+  height: 300px;
+  width: 360px;
+  object-fit: cover;
+  position: absolute;
+}
+#all_traek {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#traek111, #traek222, #traek333 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+#traek_text1, #traek_text2, #traek_text3 {
+  color: rgb(245, 0, 0);
+  font-size: 20px;
+}
+#traek1, #traek2, #traek3 {
+  height: 300px;
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
