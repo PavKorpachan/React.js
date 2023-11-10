@@ -5,6 +5,7 @@ import Hero2 from './hero2';
 import './App.css';
 import Hero from './hero';
 import Obrozov from './Obrozov';
+import Primers from './Primers';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero2 />
       <Obrozov />
       <Obr_tr />
+      <Primers />
     </div>
   );
 }
