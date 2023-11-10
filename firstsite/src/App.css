@@ -1,3 +1,7 @@
+#glavglav {
+  display: flex;
+  flex-direction: column;
+}
 #wrapper {
   display: flex;
   user-select:none;
@@ -13,12 +17,18 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 20%;
-  
+  margin-left: 24%;
+  position: absolute;
+  height: 80px;
+  align-items: center;
+  margin-top: -0.2%;
 }
 #photo {
   display: flex;
   margin-left: 3%;
+  height: 80%;
+  position: absolute;
+ justify-content: center;
 }
 #elem1, #elem2, #elem3 {
   display: flex;
@@ -51,6 +61,7 @@
   font-weight:bold;
   font-size: 15px;
   border: 0px;
+  
 }
 #but_elem4:hover {
   animation-name: hover;
@@ -82,7 +93,10 @@ h1 {
   display: flex;
   margin: auto 0px;
   flex-direction: row;
-  margin-left: 20%;
+  margin-left: 70%;
+  position: absolute;
+  height: 80px;
+  align-items: center;
 }
 .btn-primary {
   background-color:#fbb900;
@@ -103,23 +117,25 @@ h1 {
 #bg {
   display: block;
   width: 100%;
-  z-index: -2;
+  position: absolute;
+  z-index: -1;
 }
 #glavbut {
   height: 90%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 #but {
-  position: absolute;
-  margin-top: 17%;
   margin-left: 45%;
+  margin-top: 19%;
 }
 #but2 {
   display: flex;
-  position: absolute;
   width: 100%;
-  margin-top: 43%;
   justify-content: space-around;
+  margin-top: 9%;
+  margin-bottom: 2%;
 }
 .btn-secondary {
   border-radius: 180px;
@@ -179,7 +195,7 @@ h1 {
   flex-direction: column;
   text-align:left ;
   align-items: center;
- margin-top: 100px;
+ margin-top: 50px;
 }
 #texts1 {
   display: flex;
@@ -221,7 +237,6 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
   width: 100%;
-  padding: 0px 17%;
   margin-top: 70px;
 }
 #obr_tr {
@@ -230,7 +245,7 @@ h1 {
   align-items: center;
   width: 100%;
   height: 100%;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-bottom: 150px;
 }
 #traek111, #traek222, #traek333 {

@@ -9,7 +9,7 @@ import Obrozov from './Obrozov';
 
 function App() {
   return (
-    <div>
+    <div id='glavglav'>
       <Navbar />
       <Hero /> 
       <Hero2 />
