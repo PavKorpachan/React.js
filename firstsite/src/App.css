@@ -299,13 +299,67 @@ h1 {
   align-items: center;
   padding: 0px;
 }
-#div_polyline {
-  width: 40px;
-  height: 40px;
+#prim {
   display: flex;
+  width: 100%;
+  height: 700px;
   flex-direction: column;
+  border: 1px solid red;
+}
+#arr1 {
+  width: 60%;
+  height: 60%;
+  margin-right: 5px;
+}
+#arr2 {
+  width: 60%;
+  height: 60%;
+  margin-left: 5px;
+  transform: rotate(180deg);
+}
+#many_prim_ab {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 700px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-
+#many_prim {
+  display: flex;
+  border: 1px solid black;
+  width: 824px;
+  justify-content: space-between;
+}
+#cards_glav {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  flex-direction: row;
+  align-items: center;
+}
+#cards {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#card1 {
+  border: 1px solid blue;
+  width: 100px;
+  height: 350px;
+}
+#card2 {
+  border: 1px solid blue;
+  width: 700px;
+  height: 350px;
+}
+#card3 {
+  border: 1px solid blue;
+  width: 100px;
+  height: 350px;
+}
 
