@@ -45,6 +45,12 @@ const Primers = () => {
           <div id='point3'></div>
         </div>
       </div>
+      <div id='row_glav'>
+        <div id='row'>
+          <p id='cem1'>Семён Алпатов, 7 лет</p>
+          <p id='cem2'>Воксельный 3D редактор MagicaVoxel,"Крипер"</p>
+        </div>
+      </div>
     </div>
   )
 }
