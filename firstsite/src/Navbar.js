@@ -26,8 +26,6 @@ const Navbar = () => {
                 </button>
             </div>
         </div> 
-        <div id="text">
-        </div>
     </div>
   )
 }

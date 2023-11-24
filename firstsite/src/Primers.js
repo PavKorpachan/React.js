@@ -11,15 +11,15 @@ const Primers = () => {
       <div id='cards_glav'>
         <div id='cards'> 
           <div id='card1'>
-          <img id='lego' src={Lego}>
+          <img id='lego' src={Lego} alt=''>
             </img>
           </div>
           <div id='card2'>
-            <img id='krep' src={Kreper}>
+            <img id='krep' src={Kreper} alt=''>
             </img>
           </div>
           <div id='card3'>
-            <img id='pir' src={Piromids}>
+            <img id='pir' src={Piromids} alt=''>
             </img>
           </div>
         </div>
@@ -40,9 +40,9 @@ const Primers = () => {
       </div>
       <div id='points_glav'>
         <div id='points'>
-          <div id='point1'></div>
-          <div id='point2'></div>
-          <div id='point3'></div>
+          <button id='point1'></button>
+          <button id='point2'></button>
+          <button id='point3'></button>
         </div>
       </div>
       <div id='row_glav'>
