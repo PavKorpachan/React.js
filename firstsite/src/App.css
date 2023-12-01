@@ -74,6 +74,10 @@
     cursor: pointer;
     background-color:#a07602;
   }
+  #but_elem4:active {
+    cursor: pointer;
+    background-color:#916b03;
+  }
   @keyframes hover {
     from {
       background-color:#fbb900;
@@ -108,13 +112,12 @@
     background-color:#fbb900;
     width: 240px;
     border: 0px;
-    --bs-btn-active-bg: #a07602;
+    --bs-btn-active-bg: #916b03;
     --bs-btn-hover-bg: #a07602;
   }
   .btn-primary:hover {
     animation-name: hover;
-    animation-duration: 0.3s;
-    
+    animation-duration: 0.3s; 
   }
   #text {
     width: 370px;
@@ -148,7 +151,7 @@
     background-color:#fbb900;
     width: 240px;
     border: 0px;
-    --bs-btn-active-bg: #a07602;
+    --bs-btn-active-bg: #916b03;
     --bs-btn-hover-bg: #a07602;
   }
   .btn-secondary:hover {
@@ -498,6 +501,10 @@
     cursor: pointer;
     background-color:#a07602;
   }
+  #but_elem4:active {
+    cursor: pointer;
+    background-color:#916b03;
+  }
   @keyframes hover {
     from {
       background-color:#fbb900;
@@ -530,7 +537,7 @@
     background-color:#fbb900;
     width: 300px;
     border: 0px;
-    --bs-btn-active-bg: #a07602;
+    --bs-btn-active-bg: #916b03;
     --bs-btn-hover-bg: #a07602;
     font-size: 20px;
   }
@@ -572,7 +579,7 @@
     width: 300px;
     border: 0px;
     font-size: 20px;
-    --bs-btn-active-bg: #a07602;
+    --bs-btn-active-bg: #916b03;
     --bs-btn-hover-bg: #a07602;
   }
   .btn-secondary:hover {
