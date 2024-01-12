@@ -1,0 +1,42 @@
+.glavglav {
+    padding: 56px 142px 142px 100px;
+}
+.dum_text1 {
+    font-size: 100px;
+    font-weight: 900;
+    width: 800px;
+    margin-bottom: 90px;
+    text-transform: uppercase;
+}
+.dum_text2 {
+    width: 480px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.dum {
+    margin-bottom: 80px;
+}
+.resh_zaglav{
+    font-weight: 700;
+    font-size: 40px;
+    width: 500px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.resh_mini_zaglav {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 38px;
+}
+.resh_mini_text {
+    font-weight: 400;
+    font-size: 16px;
+    width: 490px;
+}
+.resh_flex2 {
+    display: flex;
+}
+.resh_flex1 {
+    display: flex;
+    flex-direction: column;
+}
