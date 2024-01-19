@@ -14,7 +14,7 @@
     font-weight: 400;
 }
 .dum {
-    margin-bottom: 80px;
+    margin-bottom: 110px;
 }
 .resh_zaglav{
     font-weight: 700;
@@ -35,8 +35,28 @@
 }
 .resh_flex2 {
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .resh_flex1 {
     display: flex;
     flex-direction: column;
+    height: 412px;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.luch_zaglav {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+.luch_texts {
+    display: flex;
+    justify-content: space-between;
+}
+.luch_texts p {
+    width: 500px;
 }

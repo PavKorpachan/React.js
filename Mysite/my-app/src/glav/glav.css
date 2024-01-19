@@ -1,0 +1,47 @@
+.bg {
+    width: 100%;
+}
+.nav {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.nav_mini {
+    display: flex;
+    justify-content: space-between;
+    width: 430px;
+}
+.logo {
+    font-weight: bold;
+}
+.glav_text {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 1000px;
+    align-items: center;
+    height: 300px;
+    justify-content: space-between;
+}
+.glav_text_flex {
+    display: flex;
+    position: absolute;
+    width: 1440px;
+    justify-content: center;
+    margin-top: 100px;
+}
+span {
+    color: #F16B4D;
+}
+.glav_text_mini {
+    font-size: 20px;
+}
+.glav_text_svg {
+    display: flex;
+    justify-content: space-between;
+    width: 337px;
+}
