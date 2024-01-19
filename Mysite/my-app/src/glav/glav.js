@@ -4,10 +4,13 @@ import bg from './bg1.png'
 import down from './download.svg'
 import google from './google.svg'
 import apple from './apple.svg'
+import perehod1 from './pere1.png'
+import perehod2 from './pere2.png'
 
 const glav = () => {
   return (
     <div className='glav'>
+        <img className='bg1' src={bg} alt='' />
         <div className='nav'>
             <p className='logo'>
                 PocketPal
@@ -42,7 +45,10 @@ const glav = () => {
                 </div>
             </div>
         </div>
-        <img className='bg' src={bg} alt='' />
+        <div className='glav_pere'>
+            <img className='pere1' src={perehod1} alt='' />
+            <img className='pere2' src={perehod2} alt='' />
+        </div>
     </div>
   )
 }

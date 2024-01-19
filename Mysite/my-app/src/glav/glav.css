@@ -1,12 +1,12 @@
-.bg {
-    width: 100%;
+.bg1 {
+    position: absolute;
+    z-index: -10;
 }
 .nav {
     display: flex;
-    position: absolute;
     width: 1440px;
     justify-content: space-around;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 .nav_mini {
     display: flex;
@@ -29,10 +29,9 @@
 }
 .glav_text_flex {
     display: flex;
-    position: absolute;
     width: 1440px;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 span {
     color: #F16B4D;
@@ -44,4 +43,12 @@ span {
     display: flex;
     justify-content: space-between;
     width: 337px;
+}
+.pere1 {
+    margin-top: 23px;
+    position: absolute;
+}
+
+.glav_pere {
+    margin-top: 386px;
 }
